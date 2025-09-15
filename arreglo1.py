@@ -18,7 +18,7 @@ print("\n")
 # 3. Modificacion
 # Cambiar impares por 0
 numeros = [0 if n % 2 != 0 else n for n in numeros]
-print("Arreglo con impares = 0:", numeros)
+print("Arreglo con pares = 0:", numeros)
 
 # Multiplicar por indice
 numeros = [n * i for i, n in enumerate(numeros)]
